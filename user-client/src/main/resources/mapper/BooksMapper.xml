@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.si1v3r.userclient.mapper.BooksMapper">
+
+    <resultMap id="BaseResultMap" type="com.si1v3r.userclient.model.domain.Books">
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="price" column="price" jdbcType="INTEGER"/>
+            <result property="ISBN" column="ISBN" jdbcType="VARCHAR"/>
+            <result property="pic1" column="pic1" jdbcType="VARCHAR"/>
+            <result property="pic2" column="pic2" jdbcType="VARCHAR"/>
+            <result property="pic3" column="pic3" jdbcType="VARCHAR"/>
+            <result property="pic4" column="pic4" jdbcType="VARCHAR"/>
+            <result property="pic5" column="pic5" jdbcType="VARCHAR"/>
+            <result property="pic6" column="pic6" jdbcType="VARCHAR"/>
+            <result property="author" column="author" jdbcType="VARCHAR"/>
+            <result property="publishingHouse" column="publishingHouse" jdbcType="VARCHAR"/>
+            <result property="introduction" column="Introduction" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        name,price,ISBN,
+        pic1,pic2,pic3,
+        pic4,pic5,pic6,
+        author,publishingHouse,Introduction
+    </sql>
+</mapper>

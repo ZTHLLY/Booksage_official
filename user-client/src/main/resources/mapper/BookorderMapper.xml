@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.si1v3r.userclient.mapper.BookorderMapper">
+
+    <resultMap id="BaseResultMap" type="com.si1v3r.userclient.model.domain.Bookorder">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="price" column="price" jdbcType="INTEGER"/>
+            <result property="deliverStatus" column="deliverStatus" jdbcType="VARCHAR"/>
+            <result property="deliver" column="deliver" jdbcType="VARCHAR"/>
+            <result property="receiver" column="receiver" jdbcType="VARCHAR"/>
+            <result property="detail" column="detail" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,price,deliverStatus,
+        deliver,receiver,detail
+    </sql>
+</mapper>
