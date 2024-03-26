@@ -42,6 +42,7 @@ import { extend } from 'umi-request';
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
   // requestType: 'form',
+  prefix: process.env.NODE_ENV === 'production' ? 'http://43.136.20.126:8082' : undefined,
 });
 
 /**
@@ -63,13 +64,13 @@ request.interceptors.request.use((url, options): any => {
  */
 request.interceptors.response.use(async (response, options): Promise<any> => {
   const res = await response.clone().json();
-  // console.log(data)
-  if (res.data === 0) {
-    return res.data;
-  }
-  if (res.code === 40000) {
-    message.error(res.description);
-  }
+  console.log(res);
+  //   if (res.data === 0) {
+  //     return res.data;
+  //   }
+  //   if (res.code === 40000) {
+  //     message.error(res.description);
+  //   }
   return response;
 });
 
