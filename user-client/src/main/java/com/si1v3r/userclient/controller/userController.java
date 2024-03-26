@@ -27,6 +27,7 @@ import static com.si1v3r.userclient.constant.userConstant.USER_LOGIN_STATE;
  */
 @RestController
 @RequestMapping("/user")
+@CrossOrigin(origins = "http://43.136.20.126:8000", allowCredentials = "true")
 public class userController {
 
   @Resource

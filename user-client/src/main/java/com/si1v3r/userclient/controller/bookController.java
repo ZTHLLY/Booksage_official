@@ -4,12 +4,11 @@ import com.si1v3r.userclient.common.BaseResponse;
 import com.si1v3r.userclient.model.domain.request.bookAddRequest;
 import com.si1v3r.userclient.service.BooksService;
 import jakarta.annotation.Resource;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 @RestController
 @RequestMapping("book")
+@CrossOrigin(origins = "http://43.136.20.126:8000",allowCredentials = "true")
 
 public class bookController {
     @Resource

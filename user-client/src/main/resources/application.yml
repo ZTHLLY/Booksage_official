@@ -3,14 +3,14 @@ spring:
     name: user-center
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: mysqlroot
-    url: jdbc:mysql://localhost:3306/si1v3r
+    username: si1v3r
+    password: G0dl1ke
+    url: jdbc:mysql://43.136.20.126:3306/booksage
   #失效时间 1天
   session:
     timeout: 86400
 server:
-  port: 8080
+  port: 8082
   servlet:
     context-path: /api
   address: 0.0.0.0
