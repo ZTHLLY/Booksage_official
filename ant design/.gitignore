@@ -37,4 +37,6 @@ screenshot
 .firebase
 .eslintcache
 
+.DS_Store
+
 build
