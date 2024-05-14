@@ -81,6 +81,9 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     User user = new User();
     user.setUserAccount(userAccount);
     user.setUserPassword(encodePassword);
+    //设置默认用户名和头像
+    user.setUsername(userAccount);
+    user.setAvatarUrl("https://bpic.588ku.com/original_origin_min_pic/19/10/04/a321f23dd346c61646a546ad9cc9194d.jpg");
     boolean result = this.save(user);
     if (!result) {
       throw new BusinessException(ErrorCode.SYSTEM_ERROR,"用户创建失败");
