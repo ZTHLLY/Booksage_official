@@ -174,7 +174,7 @@ const OrderList: React.FC = () => {
   // const [currentOrder, setCurrentOrder] = useState<Order | null>(null);
 
   const showEditModal = (record) => {
-    console.log('render=>', record);
+    //console.log('render=>', record);
     setEditingOrder(record);
     setIsModalVisible(true);
   };
@@ -241,13 +241,13 @@ const OrderList: React.FC = () => {
     //     : order,
     // );
     // setOrders(updatedOrders);
-    console.log('数据状态', values);
-    console.log('表单信息=>', editingOrder);
+    //console.log('数据状态', values);
+    //console.log('表单信息=>', editingOrder);
     editingOrder.deliverStatus = values.deliverStatus;
-    console.log('更新后的表单=>', editingOrder);
+    //console.log('更新后的表单=>', editingOrder);
     let requestBody = editingOrder;
     let res = await updateOrder(requestBody);
-    console.log('data from backend=>', res);
+    //console.log('data from backend=>', res);
     if (res.data != null) {
       setIsModalVisible(false);
       message.success('Deliver Status update success!');
@@ -268,7 +268,7 @@ const OrderList: React.FC = () => {
         columns={columns}
         // dataSource={orders}
         request={async (params, sort, filter) => {
-          console.log('params=>', params);
+          //console.log('params=>', params);
 
           const orderList = await searchOrder(params);
           return {

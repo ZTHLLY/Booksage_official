@@ -22,7 +22,7 @@ const Welcome = () => {
     const fetchDataAndSetPieData = async () => {
       try {
         const user = await currentUser();
-        console.log('get current user=>', user);
+        //console.log('get current user=>', user);
 
         let pieData;
         if (user.userRole === 1) {
@@ -60,7 +60,7 @@ const Welcome = () => {
     const fetchDataAndSetColumnData = async () => {
       try {
         const user = await currentUser();
-        console.log('get current user=>', user);
+        //console.log('get current user=>', user);
 
         let columnData;
         if (user.userRole === 1) {
