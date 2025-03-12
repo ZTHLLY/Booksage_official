@@ -39,10 +39,10 @@ const Login: React.FC = () => {
         ...values,
         type,
       });
-      console.log(values);
-      console.log('登录请求后返回的结果=>', user);
+      //console.log(values);
+      //console.log('登录请求后返回的结果=>', user);
       if (user.data) {
-        const defaultLoginSuccessMessage = '登录成功！';
+        const defaultLoginSuccessMessage = 'login success!';
         message.success(defaultLoginSuccessMessage);
         await fetchUserInfo();
         /** 此方法会跳转到 redirect 参数所在的位置 */
@@ -63,6 +63,10 @@ const Login: React.FC = () => {
     }
   };
   const { status, type: loginType } = userLoginState;
+
+  const showInfo = () => {
+    message.info('Please contact the administrator');
+  };
   return (
     // 这里返回的是整个表单
     <div className={styles.container}>
@@ -90,7 +94,7 @@ const Login: React.FC = () => {
           </Tabs>
 
           {status === 'error' && loginType === 'account' && (
-            <LoginMessage content={'错误的用户名和密码(admin/ant.design)'} />
+            <LoginMessage content={'wrong username or passward'} />
           )}
           {type === 'account' && (
             <>
@@ -100,11 +104,11 @@ const Login: React.FC = () => {
                   size: 'large',
                   prefix: <UserOutlined className={styles.prefixIcon} />,
                 }}
-                placeholder={'Administrator: pineapple吹雪'}
+                placeholder={'Administrator: pineapple'}
                 rules={[
                   {
                     required: true,
-                    message: '用户名是必填项！',
+                    message: 'Username missing!',
                   },
                 ]}
               />
@@ -118,12 +122,12 @@ const Login: React.FC = () => {
                 rules={[
                   {
                     required: true,
-                    message: '密码是必填项！',
+                    message: 'Passward missing!',
                   },
                   {
                     min: 8,
                     type: 'string',
-                    message: '密码必须大于8位',
+                    message: 'passward should more than 8 numbers',
                   },
                 ]}
               />
@@ -144,6 +148,7 @@ const Login: React.FC = () => {
                 style={{
                   float: 'right',
                 }}
+                onClick={showInfo}
               >
                 Forget
               </a>

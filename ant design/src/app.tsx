@@ -1,14 +1,12 @@
 import Footer from '@/components/Footer';
 import RightContent from '@/components/RightContent';
-import { BookOutlined, LinkOutlined } from '@ant-design/icons';
 import type { Settings as LayoutSettings } from '@ant-design/pro-components';
 import { PageLoading, SettingDrawer } from '@ant-design/pro-components';
 import type { RequestConfig, RunTimeLayoutConfig } from 'umi';
-import { history, Link } from 'umi';
+import { history } from 'umi';
 import defaultSettings from '../config/defaultSettings';
 import { currentUser as queryCurrentUser } from './services/ant-design-pro/api';
 
-const isDev = process.env.NODE_ENV === 'development';
 const loginPath = '/user/login';
 /**
  * 无需用户登录态的页面
@@ -38,14 +36,14 @@ export async function getInitialState(): Promise<{
   const fetchUserInfo = async () => {
     try {
       const user = await queryCurrentUser();
-      console.log('user=>', user);
+      //console.log('user=>', user);
       if (!user) {
-        console.log('null');
+        //console.log('null');
         history.push(loginPath);
       }
       return user;
     } catch (error) {
-      console.log('find no user');
+      //console.log('find no user');
       history.push(loginPath);
     }
     return undefined;

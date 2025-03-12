@@ -275,7 +275,7 @@ const BookTable = () => {
         ]}
         pagination={{
           pageSize: 4,
-          onChange: (page) => console.log(page),
+          onChange: (page) => {},
         }}
       />
 

@@ -83,7 +83,7 @@ export default () => {
       actionRef={actionRef}
       cardBordered
       request={async (params, sort, filter) => {
-        console.log('params=>', params);
+        //console.log('params=>', params);
         await waitTime(2000);
         const userList = await userSearch();
         return {
@@ -98,7 +98,7 @@ export default () => {
         persistenceKey: 'pro-table-singe-demos',
         persistenceType: 'localStorage',
         onChange(value) {
-          console.log('value: ', value);
+          //console.log('value: ', value);
         },
       }}
       rowKey="id"
@@ -126,7 +126,7 @@ export default () => {
       }}
       pagination={{
         pageSize: 5,
-        onChange: (page) => console.log(page),
+        onChange: () => {},
       }}
       dateFormatter="string"
       headerTitle="user form"
