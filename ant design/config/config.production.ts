@@ -15,7 +15,7 @@ export default defineConfig({
   proxy: {
     //代理以访问/api 开头的所有路由
     '/api/': {
-      target: 'http://43.136.20.126:8082', //代理目标地址
+      target: 'http://34.40.172.35:8082', //代理目标地址
       changeOrigin: true, //开启跨域访问
     },
   },

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("book")
-@CrossOrigin(origins = "http://43.136.20.126:8000",allowCredentials = "true")
+@CrossOrigin(origins = "http://34.40.172.35:8000",allowCredentials = "true")
 
 public class bookController {
     @Resource
