@@ -13,11 +13,9 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-<<<<<<< HEAD
+
 @CrossOrigin(origins ={"http://34.40.172.35:8000","http://localhost:8000"} , allowCredentials = "true")
-=======
-@CrossOrigin(origins ={"http://43.136.20.126:8000","http://localhost:8000"} , allowCredentials = "true")
->>>>>>> de5cf6da6c1c77bc99a4372b01ec9707eaba30c0
+
 @RequestMapping("/bookorder")
 public class OrderController {
     @Resource
