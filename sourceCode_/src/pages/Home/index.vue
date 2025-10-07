@@ -88,62 +88,62 @@
                                     <li class="all-departments dropdown">
                                         <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span> Shop By Department</span> <i class="fa fa-bars" aria-hidden="true"></i> </a>
                                         <ul class="dropdown-menu dropdownhover-bottom all-open" role="menu">
-											<li>
-											    <router-link :to="{ name: 'BookList', query: { category: 'Fiction' } }">
-													<img src="assets/images/menu-icon1.png" alt="menu-icon1" style="height: 20px; width: 20px;" /> Fiction
-											    </router-link>
-											</li>
-											<li>
-											    <router-link :to="{ name: 'BookList', query: { category: 'Science & Technology' } }">
-													<img src="assets/images/menu-icon2.png" alt="menu-icon2" style="height: 20px; width: 20px;"/> Science & Technology
-												</router-link>
-											</li>
-											<li>
-												<router-link :to="{ name: 'BookList', query: { category: 'History & Biography' } }">
-													<img src="assets/images/menu-icon3.png" alt="menu-icon3" style="height: 20px; width: 20px;" /> History & Biography
-												</router-link>
-											</li>
-											<li>
-												<router-link :to="{ name: 'BookList', query: { category: 'Children & Young Adult Reading' } }">
-													<img src="assets/images/menu-icon4.png" alt="menu-icon4" style="height: 20px; width: 20px;" /> Children & Young Adult Reading
-												</router-link>
-											</li>
-											<li>
-											    <router-link :to="{ name: 'BookList', query: { category: 'Travel & Adventure' } }">
-													<img src="assets/images/menu-icon5.png" alt="menu-icon5" style="height: 20px; width: 20px;" /> Travel & Adventure
-												</router-link>
-											</li>
-											<li>
-												<router-link :to="{ name: 'BookList', query: { category: 'Art & Photography' } }">
-													<img src="assets/images/menu-icon6.png" alt="menu-icon6" style="height: 20px; width: 20px;" /> Art & Photography
-												</router-link>
-											</li>
-											<li>
-												<router-link :to="{ name: 'BookList', query: { category: 'Health & Beauty' } }">
-													<img src="assets/images/menu-icon7.png" alt="menu-icon7" style="height: 20px; width: 20px;" /> Health & Beauty
-												</router-link>
-											</li>
-											<li>
-												<router-link :to="{ name: 'BookList', query: { category: 'Business & Economics' } }">
-													<img src="assets/images/menu-icon8.png" alt="menu-icon8" style="height: 20px; width: 20px;" /> Business & Economics
-												</router-link>
-											</li>
-											<li>
-												<router-link :to="{ name: 'BookList', query: { category: 'Philosophy & Religion' } }">
-													<img src="assets/images/menu-icon9.png" alt="menu-icon9" style="height: 20px; width: 20px;" /> Philosophy & Religion
-												</router-link>
-											</li>
-											<li>
-												<router-link :to="{ name: 'BookList', query: { category: 'Regional Literature Preferences' } }">
-													<img src="assets/images/menu-icon10.png" alt="menu-icon10" style="height: 20px; width: 20px;" /> Regional Literature Preferences
-												</router-link>
-											</li>
-											<li>
-												<router-link :to="{ name: 'BookList', query: { category: ' ' } }">
-													<img src="assets/images/menu-icon11.png" alt="menu-icon11" style="height: 20px; width: 20px;" /> All
-												</router-link>
-											</li>
-										</ul>
+                                            <li>
+                                                <router-link :to="{ name: 'BookList', query: { category: 'Fiction' } }">
+                                                    <img src="assets/images/menu-icon1.png" alt="menu-icon1" style="height: 20px; width: 20px;" /> Fiction
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link :to="{ name: 'BookList', query: { category: 'Science & Technology' } }">
+                                                    <img src="assets/images/menu-icon2.png" alt="menu-icon2" style="height: 20px; width: 20px;"/> Science & Technology
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link :to="{ name: 'BookList', query: { category: 'History & Biography' } }">
+                                                    <img src="assets/images/menu-icon3.png" alt="menu-icon3" style="height: 20px; width: 20px;" /> History & Biography
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link :to="{ name: 'BookList', query: { category: 'Children & Young Adult Reading' } }">
+                                                    <img src="assets/images/menu-icon4.png" alt="menu-icon4" style="height: 20px; width: 20px;" /> Children & Young Adult Reading
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link :to="{ name: 'BookList', query: { category: 'Travel & Adventure' } }">
+                                                    <img src="assets/images/menu-icon5.png" alt="menu-icon5" style="height: 20px; width: 20px;" /> Travel & Adventure
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link :to="{ name: 'BookList', query: { category: 'Art & Photography' } }">
+                                                    <img src="assets/images/menu-icon6.png" alt="menu-icon6" style="height: 20px; width: 20px;" /> Art & Photography
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link :to="{ name: 'BookList', query: { category: 'Health & Beauty' } }">
+                                                    <img src="assets/images/menu-icon7.png" alt="menu-icon7" style="height: 20px; width: 20px;" /> Health & Beauty
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link :to="{ name: 'BookList', query: { category: 'Business & Economics' } }">
+                                                    <img src="assets/images/menu-icon8.png" alt="menu-icon8" style="height: 20px; width: 20px;" /> Business & Economics
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link :to="{ name: 'BookList', query: { category: 'Philosophy & Religion' } }">
+                                                    <img src="assets/images/menu-icon9.png" alt="menu-icon9" style="height: 20px; width: 20px;" /> Philosophy & Religion
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link :to="{ name: 'BookList', query: { category: 'Regional Literature Preferences' } }">
+                                                    <img src="assets/images/menu-icon10.png" alt="menu-icon10" style="height: 20px; width: 20px;" /> Regional Literature Preferences
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link :to="{ name: 'BookList', query: { category: ' ' } }">
+                                                    <img src="assets/images/menu-icon11.png" alt="menu-icon11" style="height: 20px; width: 20px;" /> All
+                                                </router-link>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li><a href="#/Home" style="color: rgb(177, 30, 34);">Home</a></li>
                                     <li><router-link :to="{name:'BookList'}">BookList</router-link></li>
@@ -158,15 +158,15 @@
             <!-- header-outer -->
             <section class="header-outer">
                 <!-- header-slider -->
-                    <div class="header-slider">					
+                    <div class="header-slider">                    
                             <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel" >
                                 <!-- .home-slider -->
                                 <div class="carousel-inner">
                                     <div class="item active" style="background: url('https://pic.imgdb.cn/item/656dc750c458853aef0bb214.jpg');  background-repeat: no-repeat; background-position: right;">
-                                        <div class="container">		
+                                        <div class="container">        
                                             <div class="caption">
                                             <div class="caption-outer">
-                                                <div class="col-xs-12 col-sm-12 col-md-4">												
+                                                <div class="col-xs-12 col-sm-12 col-md-4">                                                
                                                 </div>
                                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                                     <h3>Liu Cixin</h3>
@@ -175,7 +175,7 @@
                                                     <p class="animated wow fadeInRight">A great scientific fiction!</p>
                                                     <a data-scroll class="btn get-start animated fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" href="#">BUY NOW</a>
                                                 </div>
-                                                <div class="col-xs-12 col-sm-6 col-md-2">												
+                                                <div class="col-xs-12 col-sm-6 col-md-2">                                                
                                                     <div class="save-price animated wow slideInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                                         <span class="save-text">From</span>
                                                         <span class="saveprice-no">44.7</span>
@@ -187,10 +187,10 @@
                                         
                                     </div>
                                     <div class="item" style="background-image: url(https://pic.imgdb.cn/item/656dc977c458853aef15155b.jpg);  background-repeat: no-repeat; background-position: right;">
-                                        <div class="container">		
+                                        <div class="container">        
                                             <div class="caption">
                                             <div class="caption-outer">
-                                                <div class="col-xs-12 col-sm-12 col-md-4">												
+                                                <div class="col-xs-12 col-sm-12 col-md-4">                                                
                                                 </div>
                                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                                     <h3>Ichiro Kishi, Shiken Koga</h3>
@@ -199,7 +199,7 @@
                                                     <p class="animated wow fadeInRight">A great psychology book!</p>
                                                     <a data-scroll class="btn get-start animated fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" href="#">BUY NOW</a>
                                                 </div>
-                                                <div class="col-xs-12 col-sm-6 col-md-2">												
+                                                <div class="col-xs-12 col-sm-6 col-md-2">                                                
                                                     <div class="save-price animated wow slideInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                                         <span class="save-text">From</span>
                                                         <span class="saveprice-no">27.5</span>
@@ -210,10 +210,10 @@
                                         </div>
                                     </div>
                                     <div class="item" style="background-image: url(https://pic.imgdb.cn/item/656dc922c458853aef138b81.jpg);  background-repeat: no-repeat; background-position: right;">
-                                        <div class="container">		
+                                        <div class="container">        
                                             <div class="caption">
                                             <div class="caption-outer">
-                                                <div class="col-xs-12 col-sm-12 col-md-4">												
+                                                <div class="col-xs-12 col-sm-12 col-md-4">                                                
                                                 </div>
                                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                                     <h3>James F.Kurose</h3>
@@ -222,7 +222,7 @@
                                                     <p class="animated wow fadeInRight">A excellent book that can learn computer network!</p>
                                                     <a data-scroll class="btn get-start animated fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" href="#">BUY NOW</a>
                                                 </div>
-                                                <div class="col-xs-12 col-sm-6 col-md-2">												
+                                                <div class="col-xs-12 col-sm-6 col-md-2">                                                
                                                     <div class="save-price animated wow slideInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                                         <span class="save-text">From</span>
                                                         <span class="saveprice-no">96.7</span>
@@ -241,9 +241,9 @@
                                 </ol>
                                 <!-- /indicators -->
                                 <!-- /.home-slider -->
-                            </div>					
+                            </div>                    
                     </div>
-                    <!-- /header-slider end -->			
+                    <!-- /header-slider end -->            
             </section>
             <!-- /header-outer -->
         </header>
@@ -304,25 +304,25 @@
                                                 <div class="item">
                                                     <div v-for="product in products_hot" :key="product.id" class="bdr col-xs-12 col-sm-12 col-md-6">
                                                     <!-- e-product -->
-														<div class="e-product">
-															<div class="pro-img">
-																<sup class="sale-tag" v-if="product.saleTag">{{ product.saleTag }}</sup>
-																<img :src="product.imgUrl" style="padding: 20px;" :alt="product.title">
-																<div class="hover-icon">
-																	<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-																</div>
-															</div>
-															<div class="pro-text-outer">
-																<span>{{ product.author }}</span>
-																<a href="#">
-																	<h4>{{ product.title }}</h4>
-																</a>
-																<p class="wk-price">{{ product.price }}</p>
-																<a href="#" class="add-btn">Add to cart</a>
-															</div>
-														</div>
+                                                        <div class="e-product">
+                                                            <div class="pro-img">
+                                                                <sup class="sale-tag" v-if="product.saleTag">{{ product.saleTag }}</sup>
+                                                                <img :src="product.imgUrl" style="padding: 20px;" :alt="product.title">
+                                                                <div class="hover-icon">
+                                                                    <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="pro-text-outer">
+                                                                <span>{{ product.author }}</span>
+                                                                <a href="#">
+                                                                    <h4>{{ product.title }}</h4>
+                                                                </a>
+                                                                <p class="wk-price">{{ product.price }}</p>
+                                                                <a href="#" class="add-btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
                                                     <!-- /e-product -->
-													</div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -334,23 +334,23 @@
                                             <div class="item">
                                                 <div v-for="product in products_new" :key="product.id" class="bdr col-xs-12 col-sm-12 col-md-6">
                                                 <!-- e-product -->
-                                                	<div class="e-product">
-                                                		<div class="pro-img">
-                                                			<sup class="sale-tag" v-if="product.saleTag">{{ product.saleTag }}</sup>
-                                                			<img :src="product.imgUrl" style="padding: 20px;" :alt="product.title">
-                                                			<div class="hover-icon">
-                                                				<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                                			</div>
-                                                		</div>
-                                                		<div class="pro-text-outer">
-                                                			<span>{{ product.author }}</span>
-                                                			<a href="#">
-                                                				<h4>{{ product.title }}</h4>
-                                                			</a>
-                                                			<p class="wk-price">{{ product.price }}</p>
-                                                			<a href="#" class="add-btn">Add to cart</a>
-                                                		</div>
-                                                	</div>
+                                                    <div class="e-product">
+                                                        <div class="pro-img">
+                                                            <sup class="sale-tag" v-if="product.saleTag">{{ product.saleTag }}</sup>
+                                                            <img :src="product.imgUrl" style="padding: 20px;" :alt="product.title">
+                                                            <div class="hover-icon">
+                                                                <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pro-text-outer">
+                                                            <span>{{ product.author }}</span>
+                                                            <a href="#">
+                                                                <h4>{{ product.title }}</h4>
+                                                            </a>
+                                                            <p class="wk-price">{{ product.price }}</p>
+                                                            <a href="#" class="add-btn">Add to cart</a>
+                                                        </div>
+                                                    </div>
                                                 <!-- /e-product -->
                                                 </div>
                                             </div>
@@ -362,23 +362,23 @@
                                         <div id="owl-demo14" class="deals-wk2">
                                       <div v-for="product in products_recommend" :key="product.id" class="bdr col-xs-12 col-sm-12 col-md-6">
                                       <!-- e-product -->
-                                      	<div class="e-product">
-                                      		<div class="pro-img">
-                                      			<sup class="sale-tag" v-if="product.saleTag">{{ product.saleTag }}</sup>
-                                      			<img :src="product.imgUrl" style="padding: 20px;" :alt="product.title">
-                                      			<div class="hover-icon">
-                                      				<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                      			</div>
-                                      		</div>
-                                      		<div class="pro-text-outer">
-                                      			<span>{{ product.author }}</span>
-                                      			<a href="#">
-                                      				<h4>{{ product.title }}</h4>
-                                      			</a>
-                                      			<p class="wk-price">{{ product.price }}</p>
-                                      			<a href="#" class="add-btn">Add to cart</a>
-                                      		</div>
-                                      	</div>
+                                          <div class="e-product">
+                                              <div class="pro-img">
+                                                  <sup class="sale-tag" v-if="product.saleTag">{{ product.saleTag }}</sup>
+                                                  <img :src="product.imgUrl" style="padding: 20px;" :alt="product.title">
+                                                  <div class="hover-icon">
+                                                      <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                                  </div>
+                                              </div>
+                                              <div class="pro-text-outer">
+                                                  <span>{{ product.author }}</span>
+                                                  <a href="#">
+                                                      <h4>{{ product.title }}</h4>
+                                                  </a>
+                                                  <p class="wk-price">{{ product.price }}</p>
+                                                  <a href="#" class="add-btn">Add to cart</a>
+                                              </div>
+                                          </div>
                                       <!-- /e-product -->
                                       </div>                                        </div>
                                     </div>
@@ -386,28 +386,28 @@
                                     <!-- tab-pane -->
                                     <div id="tV" class="tab-pane fade in">
                                         <div id="owl-demo15" class="deals-wk2">
-											<div v-for="product in products_classics" :key="product.id" class="bdr col-xs-12 col-sm-12 col-md-6">
-											<!-- e-product -->
-												<div class="e-product">
-													<div class="pro-img">
-														<sup class="sale-tag" v-if="product.saleTag">{{ product.saleTag }}</sup>
-														<img :src="product.imgUrl" style="padding: 20px;" :alt="product.title">
-														<div class="hover-icon">
-															<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-														</div>
-													</div>
-													<div class="pro-text-outer">
-														<span>{{ product.author }}</span>
-														<a href="#">
-															<h4>{{ product.title }}</h4>
-														</a>
-														<p class="wk-price">{{ product.price }}</p>
-														<a href="#" class="add-btn">Add to cart</a>
-													</div>
-												</div>
-											<!-- /e-product -->
-											</div>                                        
-										</div>
+                                            <div v-for="product in products_classics" :key="product.id" class="bdr col-xs-12 col-sm-12 col-md-6">
+                                            <!-- e-product -->
+                                                <div class="e-product">
+                                                    <div class="pro-img">
+                                                        <sup class="sale-tag" v-if="product.saleTag">{{ product.saleTag }}</sup>
+                                                        <img :src="product.imgUrl" style="padding: 20px;" :alt="product.title">
+                                                        <div class="hover-icon">
+                                                            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pro-text-outer">
+                                                        <span>{{ product.author }}</span>
+                                                        <a href="#">
+                                                            <h4>{{ product.title }}</h4>
+                                                        </a>
+                                                        <p class="wk-price">{{ product.price }}</p>
+                                                        <a href="#" class="add-btn">Add to cart</a>
+                                                    </div>
+                                                </div>
+                                            <!-- /e-product -->
+                                            </div>                                        
+                                        </div>
                                     </div>
                                     <!-- /tab-pane -->
                             
@@ -437,8 +437,8 @@
             </div>
         </section>
         <!-- /all-product -->
-		
-		
+        
+        
         <div v-if="Object.keys(userInfo).length === 0 ? true : false">
             <div class="modal fade modal-popup" id="modal1" data-open-delay="1500" tabindex="-1" role="dialog" data-backdrop="static"> 
                 <div class="modal-dialog modal-lg" role="document">
@@ -469,146 +469,146 @@ import Login from "../Login/index.vue";
 export default {
     name: 'Home',
     components: {
-		Login
+        Login
     },
-	data() {
-		return{
-			products_hot:[
-			{
-				id: 1,
-				saleTag: 'sale!',
-				imgUrl: 'https://pic.imgdb.cn/item/656dcdc4c458853aef294f6d.jpg',
-				author: 'Jhumpa Lahiri',
-				title: 'Roman Stories',
-				price: '$24.3',
-			},
-			{
-				id: 2,
-				imgUrl: 'https://pic.imgdb.cn/item/656dccecc458853aef24fb7a.jpg',
-				author: 'Ann Napolitano',
-				title: 'Hello Beautiful',
-				price: '$15.56',
-			},
-			{
-				id: 3,
-				saleTag: 'sale!',
-				imgUrl: 'https://pic.imgdb.cn/item/656dce63c458853aef2c2f14.jpg',
-				author: 'Rainer Maria Rilke',
-				title: 'Letters to a Young Poet: The Norton Centenary Edition',
-				price: '$12.95',
+    data() {
+        return{
+            products_hot:[
+            {
+                id: 1,
+                saleTag: 'sale!',
+                imgUrl: 'https://pic.imgdb.cn/item/656dcdc4c458853aef294f6d.jpg',
+                author: 'Jhumpa Lahiri',
+                title: 'Roman Stories',
+                price: '$24.3',
             },
-			{
-				id: 4,
-				newTag: 'NEW',
-				imgUrl: 'https://pic.imgdb.cn/item/656dcf4fc458853aef307e15.jpg',
-				author: 'Walter Isaacson',
-				title: 'Elon Musk',
-				price: '$17.5',
+            {
+                id: 2,
+                imgUrl: 'https://pic.imgdb.cn/item/656dccecc458853aef24fb7a.jpg',
+                author: 'Ann Napolitano',
+                title: 'Hello Beautiful',
+                price: '$15.56',
             },
-		  ],
-		  products_new:[
-		  	{
-				id: 1,
-				saleTag: 'sale!',
-		  		imgUrl: 'https://pic.imgdb.cn/item/656dcdc4c458853aef294f6d.jpg',
-				author: 'Jhumpa Lahiri',
-				title: 'Roman Stories',
-				price: '$24.3',
-	  		},
-	  		{
-				id: 2,
-		  		imgUrl: 'https://pic.imgdb.cn/item/656dccecc458853aef24fb7a.jpg',
-		  		author: 'Ann Napolitano',
-				title: 'Hello Beautiful',
-	  			price: '$15.56',
-		  	},
-		  	{
-		  		id: 3,
-		  		saleTag: 'sale!',
-		  		imgUrl: 'https://pic.imgdb.cn/item/656dce63c458853aef2c2f14.jpg',
-		  		author: 'Rainer Maria Rilke',
-		  		title: 'Letters to a Young Poet: The Norton Centenary Edition',
-		  		price: '$12.95',
-			},
-		  	{
-		  		id: 4,
-		  		newTag: 'NEW',
-		  		imgUrl: 'https://pic.imgdb.cn/item/656dcf4fc458853aef307e15.jpg',
-		  		author: 'Walter Isaacson',
-		  		title: 'Elon Musk',
-		  		price: '$17.5',
-		    },
-		  ],
-		  products_recommend:[
-			{
-		  		id: 1,
-		  		saleTag: 'sale!',
-		  		imgUrl: 'https://pic.imgdb.cn/item/656dcdc4c458853aef294f6d.jpg',
-		  		author: 'Jhumpa Lahiri',
-		  		title: 'Roman Stories',
-		  		price: '24.3',
-		  	},
-			{
-		  		id: 2,
-		  		imgUrl: 'https://pic.imgdb.cn/item/656dccecc458853aef24fb7a.jpg',
-		  		author: 'Ann Napolitano',
-		  		title: 'Hello Beautiful',
-		  		price: '15.56',
-		  	},
-		  	{
-		  		id: 3,
-		  		saleTag: 'sale!',
-		  		imgUrl: 'https://pic.imgdb.cn/item/656dce63c458853aef2c2f14.jpg',
-		  		author: 'Rainer Maria Rilke',
-		  		title: 'Letters to a Young Poet: The Norton Centenary Edition',
-				price: '12.95',
-		    },
-		  	{
-		  		id: 4,
-		  		newTag: 'NEW',
-				imgUrl: 'https://pic.imgdb.cn/item/656dcf4fc458853aef307e15.jpg',
-		  		author: 'Walter Isaacson',
-		  		title: 'Elon Musk',
-		  		price: '17.5',
-		    },
-		  ],
-		  products_classics:[
-			{
-		  		id: 1,
-		  		saleTag: 'sale!',
-		  		imgUrl: 'https://pic.imgdb.cn/item/656dcdc4c458853aef294f6d.jpg',
-		  		author: 'Jhumpa Lahiri',
-		  		title: 'Roman Stories',
-		  		price: '24.3',
-		  	},
-			{
-				id: 2,
-		  		imgUrl: 'https://pic.imgdb.cn/item/656dccecc458853aef24fb7a.jpg',
-		  		author: 'Ann Napolitano',
-		  		title: 'Hello Beautiful',
-		  		price: '15.56',
-		  	},
-		  	{
-				id: 3,
-		  		saleTag: 'sale!',
-		  		imgUrl: 'https://pic.imgdb.cn/item/656dce63c458853aef2c2f14.jpg',
-		  		author: 'Rainer Maria Rilke',
-		  		title: 'Letters to a Young Poet: The Norton Centenary Edition',
-				price: '12.95',
-		    },
-		  	{
-		  		id: 4,
-		  		newTag: 'NEW',
-		  		imgUrl: 'https://pic.imgdb.cn/item/656dcf4fc458853aef307e15.jpg',
-		  		author: 'Walter Isaacson',
-		  		title: 'Elon Musk',
-		  		price: '17.5',
-		    },
-		  ],
+            {
+                id: 3,
+                saleTag: 'sale!',
+                imgUrl: 'https://pic.imgdb.cn/item/656dce63c458853aef2c2f14.jpg',
+                author: 'Rainer Maria Rilke',
+                title: 'Letters to a Young Poet: The Norton Centenary Edition',
+                price: '$12.95',
+            },
+            {
+                id: 4,
+                newTag: 'NEW',
+                imgUrl: 'https://pic.imgdb.cn/item/656dcf4fc458853aef307e15.jpg',
+                author: 'Walter Isaacson',
+                title: 'Elon Musk',
+                price: '$17.5',
+            },
+          ],
+          products_new:[
+              {
+                id: 1,
+                saleTag: 'sale!',
+                  imgUrl: 'https://pic.imgdb.cn/item/656dcdc4c458853aef294f6d.jpg',
+                author: 'Jhumpa Lahiri',
+                title: 'Roman Stories',
+                price: '$24.3',
+              },
+              {
+                id: 2,
+                  imgUrl: 'https://pic.imgdb.cn/item/656dccecc458853aef24fb7a.jpg',
+                  author: 'Ann Napolitano',
+                title: 'Hello Beautiful',
+                  price: '$15.56',
+              },
+              {
+                  id: 3,
+                  saleTag: 'sale!',
+                  imgUrl: 'https://pic.imgdb.cn/item/656dce63c458853aef2c2f14.jpg',
+                  author: 'Rainer Maria Rilke',
+                  title: 'Letters to a Young Poet: The Norton Centenary Edition',
+                  price: '$12.95',
+            },
+              {
+                  id: 4,
+                  newTag: 'NEW',
+                  imgUrl: 'https://pic.imgdb.cn/item/656dcf4fc458853aef307e15.jpg',
+                  author: 'Walter Isaacson',
+                  title: 'Elon Musk',
+                  price: '$17.5',
+            },
+          ],
+          products_recommend:[
+            {
+                  id: 1,
+                  saleTag: 'sale!',
+                  imgUrl: 'https://pic.imgdb.cn/item/656dcdc4c458853aef294f6d.jpg',
+                  author: 'Jhumpa Lahiri',
+                  title: 'Roman Stories',
+                  price: '24.3',
+              },
+            {
+                  id: 2,
+                  imgUrl: 'https://pic.imgdb.cn/item/656dccecc458853aef24fb7a.jpg',
+                  author: 'Ann Napolitano',
+                  title: 'Hello Beautiful',
+                  price: '15.56',
+              },
+              {
+                  id: 3,
+                  saleTag: 'sale!',
+                  imgUrl: 'https://pic.imgdb.cn/item/656dce63c458853aef2c2f14.jpg',
+                  author: 'Rainer Maria Rilke',
+                  title: 'Letters to a Young Poet: The Norton Centenary Edition',
+                price: '12.95',
+            },
+              {
+                  id: 4,
+                  newTag: 'NEW',
+                imgUrl: 'https://pic.imgdb.cn/item/656dcf4fc458853aef307e15.jpg',
+                  author: 'Walter Isaacson',
+                  title: 'Elon Musk',
+                  price: '17.5',
+            },
+          ],
+          products_classics:[
+            {
+                  id: 1,
+                  saleTag: 'sale!',
+                  imgUrl: 'https://pic.imgdb.cn/item/656dcdc4c458853aef294f6d.jpg',
+                  author: 'Jhumpa Lahiri',
+                  title: 'Roman Stories',
+                  price: '24.3',
+              },
+            {
+                id: 2,
+                  imgUrl: 'https://pic.imgdb.cn/item/656dccecc458853aef24fb7a.jpg',
+                  author: 'Ann Napolitano',
+                  title: 'Hello Beautiful',
+                  price: '15.56',
+              },
+              {
+                id: 3,
+                  saleTag: 'sale!',
+                  imgUrl: 'https://pic.imgdb.cn/item/656dce63c458853aef2c2f14.jpg',
+                  author: 'Rainer Maria Rilke',
+                  title: 'Letters to a Young Poet: The Norton Centenary Edition',
+                price: '12.95',
+            },
+              {
+                  id: 4,
+                  newTag: 'NEW',
+                  imgUrl: 'https://pic.imgdb.cn/item/656dcf4fc458853aef307e15.jpg',
+                  author: 'Walter Isaacson',
+                  title: 'Elon Musk',
+                  price: '17.5',
+            },
+          ],
           userInfo: {},
-		}
-		
-	},
+        }
+        
+    },
     methods: {
         handleUserInfo(data) {
             console.log("In father=>", data);

@@ -42,8 +42,7 @@ import { extend } from 'umi-request';
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
   // requestType: 'form',
-  prefix:
-    process.env.NODE_ENV === 'production' ? 'http://34.40.203.212:8082' : 'http://localhost:8082',
+  prefix: process.env.NODE_ENV === 'production' ? 'http://si1v3r.xyz' : 'http://localhost:8082',
 });
 
 /**
