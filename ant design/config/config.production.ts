@@ -15,7 +15,7 @@ export default defineConfig({
   proxy: {
     //代理以访问/api 开头的所有路由
     '/api/': {
-      target: 'http://si1v3r.xyz', //代理目标地址
+      target: 'https://booksage-api.si1v3r.xyz', //代理目标地址
       changeOrigin: true, //开启跨域访问
     },
   },

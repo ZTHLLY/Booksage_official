@@ -42,7 +42,7 @@ import { extend } from 'umi-request';
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
   // requestType: 'form',
-  prefix: process.env.NODE_ENV === 'production' ? 'http://si1v3r.xyz' : 'http://localhost:8082',
+  prefix: process.env.NODE_ENV === 'production' ? 'https://booksage-api.si1v3r.xyz' : 'http://localhost:8082',
 });
 
 /**
@@ -63,7 +63,15 @@ request.interceptors.request.use((url, options): any => {
  * 所有响应拦截器
  */
 request.interceptors.response.use(async (response, options): Promise<any> => {
-  const res = await response.clone().json();
+  const text = await response.clone().text();
+  if (text) {
+    try {
+      const res = JSON.parse(text);
+      // 这里你再做 res.code 之类判断
+    } catch (e) {
+      // 不是json就忽略
+    }
+  }
   //console.log(res);
   //   if (res.data === 0) {
   //     return res.data;
