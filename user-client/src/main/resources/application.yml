@@ -13,7 +13,12 @@ server:
   port: 8082
   servlet:
     context-path: /api
+    session:
+      cookie:
+        secure: true
+        same-site: none
   address: 0.0.0.0
+  forward-headers-strategy: framework
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: false
